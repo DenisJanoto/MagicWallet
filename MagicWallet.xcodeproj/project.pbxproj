@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9235E07024B8CCB800CFB8A7 /* CreateAndShowAlertsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9235E06F24B8CCB800CFB8A7 /* CreateAndShowAlertsViewController.swift */; };
+		9235E07224B8E91200CFB8A7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9235E07124B8E91200CFB8A7 /* MainViewController.swift */; };
+		9235E07424B8EA2500CFB8A7 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9235E07324B8EA2500CFB8A7 /* StatisticsViewController.swift */; };
+		923BD87524B60B4E00D37C5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923BD87424B60B4E00D37C5A /* AppDelegate.swift */; };
+		923BD87724B60B4E00D37C5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923BD87624B60B4E00D37C5A /* SceneDelegate.swift */; };
+		923BD87C24B60B4E00D37C5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 923BD87A24B60B4E00D37C5A /* Main.storyboard */; };
+		923BD87F24B60B4E00D37C5A /* MagicWallet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 923BD87D24B60B4E00D37C5A /* MagicWallet.xcdatamodeld */; };
+		923BD88124B60B5000D37C5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 923BD88024B60B5000D37C5A /* Assets.xcassets */; };
+		923BD88424B60B5000D37C5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 923BD88224B60B5000D37C5A /* LaunchScreen.storyboard */; };
+		923BD89024B63C4B00D37C5A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923BD88F24B63C4B00D37C5A /* LoginViewController.swift */; };
+		923BD89224B685D600D37C5A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923BD89124B685D600D37C5A /* RegisterViewController.swift */; };
+		92B79F6024B8C6F70016E2B0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92B79F5F24B8C6F70016E2B0 /* GoogleService-Info.plist */; };
+		F16B9A671F0BDB5F9D5DED87 /* Pods_MagicWallet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F162828FB650A4399AECDA84 /* Pods_MagicWallet.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		58DC14EB71CA85A0E515A1B2 /* Pods-MagicWallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicWallet.release.xcconfig"; path = "Target Support Files/Pods-MagicWallet/Pods-MagicWallet.release.xcconfig"; sourceTree = "<group>"; };
+		9235E06F24B8CCB800CFB8A7 /* CreateAndShowAlertsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAndShowAlertsViewController.swift; sourceTree = "<group>"; };
+		9235E07124B8E91200CFB8A7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9235E07324B8EA2500CFB8A7 /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
+		923BD87124B60B4E00D37C5A /* MagicWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		923BD87424B60B4E00D37C5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		923BD87624B60B4E00D37C5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		923BD87B24B60B4E00D37C5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		923BD87E24B60B4E00D37C5A /* MagicWallet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MagicWallet.xcdatamodel; sourceTree = "<group>"; };
+		923BD88024B60B5000D37C5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		923BD88324B60B5000D37C5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		923BD88524B60B5000D37C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		923BD88F24B63C4B00D37C5A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		923BD89124B685D600D37C5A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		92B79F5F24B8C6F70016E2B0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B6B244C38A7A64279923C85C /* Pods-MagicWallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicWallet.debug.xcconfig"; path = "Target Support Files/Pods-MagicWallet/Pods-MagicWallet.debug.xcconfig"; sourceTree = "<group>"; };
+		F162828FB650A4399AECDA84 /* Pods_MagicWallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagicWallet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		923BD86E24B60B4E00D37C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16B9A671F0BDB5F9D5DED87 /* Pods_MagicWallet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		923BD86824B60B4E00D37C5A = {
+			isa = PBXGroup;
+			children = (
+				923BD87324B60B4E00D37C5A /* MagicWallet */,
+				923BD87224B60B4E00D37C5A /* Products */,
+				F7D2F5725582BB28ED676555 /* Pods */,
+				AA555A7ACE734C87A5DFC620 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		923BD87224B60B4E00D37C5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				923BD87124B60B4E00D37C5A /* MagicWallet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		923BD87324B60B4E00D37C5A /* MagicWallet */ = {
+			isa = PBXGroup;
+			children = (
+				923BD88E24B63C3A00D37C5A /* Model */,
+				923BD88D24B63C3600D37C5A /* View */,
+				923BD88C24B63C2F00D37C5A /* Controller */,
+				923BD87424B60B4E00D37C5A /* AppDelegate.swift */,
+				923BD87624B60B4E00D37C5A /* SceneDelegate.swift */,
+				923BD87A24B60B4E00D37C5A /* Main.storyboard */,
+				923BD88024B60B5000D37C5A /* Assets.xcassets */,
+				923BD88224B60B5000D37C5A /* LaunchScreen.storyboard */,
+				92B79F5F24B8C6F70016E2B0 /* GoogleService-Info.plist */,
+				923BD88524B60B5000D37C5A /* Info.plist */,
+				923BD87D24B60B4E00D37C5A /* MagicWallet.xcdatamodeld */,
+			);
+			path = MagicWallet;
+			sourceTree = "<group>";
+		};
+		923BD88C24B63C2F00D37C5A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9235E06F24B8CCB800CFB8A7 /* CreateAndShowAlertsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		923BD88D24B63C3600D37C5A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				923BD88F24B63C4B00D37C5A /* LoginViewController.swift */,
+				923BD89124B685D600D37C5A /* RegisterViewController.swift */,
+				9235E07124B8E91200CFB8A7 /* MainViewController.swift */,
+				9235E07324B8EA2500CFB8A7 /* StatisticsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		923BD88E24B63C3A00D37C5A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA555A7ACE734C87A5DFC620 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F162828FB650A4399AECDA84 /* Pods_MagicWallet.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7D2F5725582BB28ED676555 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6B244C38A7A64279923C85C /* Pods-MagicWallet.debug.xcconfig */,
+				58DC14EB71CA85A0E515A1B2 /* Pods-MagicWallet.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		923BD87024B60B4E00D37C5A /* MagicWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 923BD88824B60B5000D37C5A /* Build configuration list for PBXNativeTarget "MagicWallet" */;
+			buildPhases = (
+				47C18931549B965A0A1E271A /* [CP] Check Pods Manifest.lock */,
+				923BD86D24B60B4E00D37C5A /* Sources */,
+				923BD86E24B60B4E00D37C5A /* Frameworks */,
+				923BD86F24B60B4E00D37C5A /* Resources */,
+				96BE5CC61FD4F49D78D427DC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicWallet;
+			productName = MagicWallet;
+			productReference = 923BD87124B60B4E00D37C5A /* MagicWallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		923BD86924B60B4E00D37C5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Denis Janoto";
+				TargetAttributes = {
+					923BD87024B60B4E00D37C5A = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 923BD86C24B60B4E00D37C5A /* Build configuration list for PBXProject "MagicWallet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 923BD86824B60B4E00D37C5A;
+			productRefGroup = 923BD87224B60B4E00D37C5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				923BD87024B60B4E00D37C5A /* MagicWallet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		923BD86F24B60B4E00D37C5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923BD88424B60B5000D37C5A /* LaunchScreen.storyboard in Resources */,
+				92B79F6024B8C6F70016E2B0 /* GoogleService-Info.plist in Resources */,
+				923BD88124B60B5000D37C5A /* Assets.xcassets in Resources */,
+				923BD87C24B60B4E00D37C5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47C18931549B965A0A1E271A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagicWallet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96BE5CC61FD4F49D78D427DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MagicWallet/Pods-MagicWallet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MagicWallet/Pods-MagicWallet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MagicWallet/Pods-MagicWallet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		923BD86D24B60B4E00D37C5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9235E07224B8E91200CFB8A7 /* MainViewController.swift in Sources */,
+				923BD89024B63C4B00D37C5A /* LoginViewController.swift in Sources */,
+				923BD89224B685D600D37C5A /* RegisterViewController.swift in Sources */,
+				9235E07424B8EA2500CFB8A7 /* StatisticsViewController.swift in Sources */,
+				923BD87524B60B4E00D37C5A /* AppDelegate.swift in Sources */,
+				923BD87F24B60B4E00D37C5A /* MagicWallet.xcdatamodeld in Sources */,
+				9235E07024B8CCB800CFB8A7 /* CreateAndShowAlertsViewController.swift in Sources */,
+				923BD87724B60B4E00D37C5A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		923BD87A24B60B4E00D37C5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				923BD87B24B60B4E00D37C5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		923BD88224B60B5000D37C5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				923BD88324B60B5000D37C5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		923BD88624B60B5000D37C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		923BD88724B60B5000D37C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		923BD88924B60B5000D37C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6B244C38A7A64279923C85C /* Pods-MagicWallet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K34LZEZG4X;
+				INFOPLIST_FILE = MagicWallet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.MagicWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		923BD88A24B60B5000D37C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58DC14EB71CA85A0E515A1B2 /* Pods-MagicWallet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K34LZEZG4X;
+				INFOPLIST_FILE = MagicWallet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.MagicWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		923BD86C24B60B4E00D37C5A /* Build configuration list for PBXProject "MagicWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923BD88624B60B5000D37C5A /* Debug */,
+				923BD88724B60B5000D37C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		923BD88824B60B5000D37C5A /* Build configuration list for PBXNativeTarget "MagicWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923BD88924B60B5000D37C5A /* Debug */,
+				923BD88A24B60B5000D37C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		923BD87D24B60B4E00D37C5A /* MagicWallet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				923BD87E24B60B4E00D37C5A /* MagicWallet.xcdatamodel */,
+			);
+			currentVersion = 923BD87E24B60B4E00D37C5A /* MagicWallet.xcdatamodel */;
+			path = MagicWallet.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 923BD86924B60B4E00D37C5A /* Project object */;
+}
